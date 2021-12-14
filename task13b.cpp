@@ -66,7 +66,7 @@ int main() {
             if (board[i][j]) {
                 cout << board[i][j];
             } else {
-                cout << '.';
+                cout << ' ';
             }
         }
         cout << '\n';
