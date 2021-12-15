@@ -9,10 +9,8 @@ int main() {
     string line;
     while (getline(cin, line)) {
         board.push_back(vector<int>(5 * line.size()));
-        // dist.push_back(vector<int>(line.size()));
         for (int i = 0; i < line.size(); ++i) {
             board[board.size() - 1][i] = line[i] - '0';
-            // dist[dist.size() - 1][i] = MAX_DIST;
         }
         for (int t = 1; t < 5; ++t) {
             for (int i = 0; i < line.size(); ++i) {
