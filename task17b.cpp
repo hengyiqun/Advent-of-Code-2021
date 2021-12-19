@@ -64,6 +64,6 @@ int main() {
 
     cout << ans.size() << '\n';
 
-    cout << x1 << ' ' << x2 << ' ' << y1 << ' ' << y2;
+    // cout << x1 << ' ' << x2 << ' ' << y1 << ' ' << y2;
     return 0;
 }
